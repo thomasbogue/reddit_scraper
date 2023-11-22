@@ -7,7 +7,7 @@ import my_praw
 
 try:
   text_filename = "reddit_texts.json"
-  texts = json.load(text_filename)
+  texts = json.load(open(text_filename, "r"))
 except:
   print(f"could not open {text_filename}")
   exit(1)
