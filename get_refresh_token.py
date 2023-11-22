@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# this code heavily borrowed from https://www.jcchouinard.com/get-reddit-api-credentials-with-praw/
+
 import random
 import socket
 import sys
